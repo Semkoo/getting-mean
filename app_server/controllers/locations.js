@@ -9,6 +9,7 @@ module.exports.homelist = function(req,res){
             title:'WifiSpoof',
             strapline: 'Find place to work with wifi near you!'
         },
+        sidebar : "Looking for wifi and a seat? WifiSpoof helps you find places to work when out and about. Perhaps with coffee, cake or a pint? Let WifiSpoof help you find the place you're loooking for.",
         locations:[
             {
                 name:'Starcups',
@@ -29,7 +30,7 @@ module.exports.homelist = function(req,res){
                 address:'125 High Street, Reading, RG6 1PS',
                 rating: 2, 
                 facilities: [ 'Food', 'Premium Wifi'],
-                distance: '250'
+                distance: '250m'
             },
         ]
     });
